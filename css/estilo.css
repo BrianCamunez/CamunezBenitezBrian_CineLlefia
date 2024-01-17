@@ -1,0 +1,202 @@
+#headerTop{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 6%;
+    margin-right: 15%;
+}
+
+#login{
+    height: 100px;
+    width: 100%;
+}
+
+#login ul{
+    display: flex;
+    justify-content: right;
+}
+
+#login ul li a{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#login ul li{
+    padding: 0px 10px;
+    list-style: none;
+}
+
+#menuTop{
+    width: 100%;
+    border-bottom: 3px solid yellow;
+    margin-left: 70px;
+    
+}
+
+#menuTop ul{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#menuTop ul li{
+    list-style: none;
+    justify-content: center;
+}
+
+#menuTop ul li img{
+    width: 200px;
+    justify-content: center;
+}
+
+
+#menuTop ul li a:hover{
+    background-color: yellow;
+}
+
+#menuTop ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 5px 40px 5px 40px;
+    
+}
+
+main{
+    background-image: url(/images/poster.jpg);
+    width: 100%;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.menuBody{
+    margin-top: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(245, 245, 245);
+    font-weight: bold;
+}
+
+.menuBody ul{
+    display: flex;
+    width: 97%;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.menuBody ul li{
+    list-style: none;
+}
+
+.menuBody ul li a{
+    text-decoration: none;
+    color: rgb(57, 136, 255);
+    font-size: 21px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.buscadorBody{
+    text-align: right;
+    color: rgb(57, 136, 255);
+}
+
+#topPelis{
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    color: rgb(57, 136, 255);
+}
+#topPelis:hover{
+    background-color: rgb(57, 136, 255);
+    color: white;
+}
+
+#az{
+    color: white;
+    background-color: rgb(57, 136, 255);
+    padding: 5px;
+    margin: 10px;
+    margin-right: 40px;
+}
+
+.fichas{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.ficha{
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px;
+}
+
+.ficha h3{
+    color: rgb(57, 136, 255);
+    margin: 20px;
+}
+
+.ficha img{
+    margin: 0px 20px 0px 20px;
+    width: 200px;
+    height: 300px;
+}
+
+.valoracion{
+    text-align: center;
+    margin: 15px;
+}
+
+.menuIconos ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+}
+
+.menuIconos ul li{
+    margin: 30px;
+}
+
+.menuFooter{
+    display:flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.columna{
+ margin: 30px;
+}
+
+.columna h3{
+    color: rgb(2, 2, 139);
+    font-size: 24px;
+}
+
+.columna ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.columna ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+.menuIconos ul li a i{
+    font-size: 50px;
+}
